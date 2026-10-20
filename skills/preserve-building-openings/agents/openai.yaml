@@ -1,0 +1,4 @@
+interface:
+  display_name: "建筑门窗与开口"
+  short_description: "检查规则建筑中的门窗、玻璃、连廊和架空空间，避免补全封洞"
+  default_prompt: "使用 $preserve-building-openings 检查并保护建筑中的门窗与通行空间。"

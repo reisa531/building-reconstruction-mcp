@@ -1,0 +1,28 @@
+{
+  "blocks": [
+    {
+      "id": "minecraft:light_gray_concrete",
+      "mean_rgb": [
+        125,
+        125,
+        115
+      ]
+    },
+    {
+      "id": "minecraft:glass",
+      "mean_rgb": [
+        200,
+        225,
+        230
+      ]
+    },
+    {
+      "id": "minecraft:smooth_stone",
+      "mean_rgb": [
+        158,
+        158,
+        158
+      ]
+    }
+  ]
+}

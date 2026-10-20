@@ -1,0 +1,725 @@
+{
+  "schema_version": 1,
+  "dims": [
+    28,
+    26,
+    24
+  ],
+  "components": [
+    {
+      "id": 1,
+      "role": "wall",
+      "shape": "box",
+      "min": [
+        2,
+        0,
+        2
+      ],
+      "max": [
+        26,
+        24,
+        4
+      ],
+      "material": 1,
+      "evidence": "inferred"
+    },
+    {
+      "id": 2,
+      "role": "wall",
+      "shape": "box",
+      "min": [
+        2,
+        0,
+        20
+      ],
+      "max": [
+        26,
+        24,
+        22
+      ],
+      "material": 1,
+      "evidence": "inferred"
+    },
+    {
+      "id": 3,
+      "role": "wall",
+      "shape": "box",
+      "min": [
+        2,
+        0,
+        4
+      ],
+      "max": [
+        4,
+        24,
+        20
+      ],
+      "material": 1,
+      "evidence": "inferred"
+    },
+    {
+      "id": 4,
+      "role": "wall",
+      "shape": "box",
+      "min": [
+        24,
+        0,
+        4
+      ],
+      "max": [
+        26,
+        24,
+        20
+      ],
+      "material": 1,
+      "evidence": "inferred"
+    },
+    {
+      "id": 5,
+      "role": "floor",
+      "shape": "box",
+      "min": [
+        2,
+        0,
+        2
+      ],
+      "max": [
+        26,
+        1,
+        22
+      ],
+      "material": 3,
+      "evidence": "inferred"
+    },
+    {
+      "id": 6,
+      "role": "floor",
+      "shape": "box",
+      "min": [
+        2,
+        8,
+        2
+      ],
+      "max": [
+        26,
+        9,
+        22
+      ],
+      "material": 3,
+      "evidence": "inferred"
+    },
+    {
+      "id": 7,
+      "role": "floor",
+      "shape": "box",
+      "min": [
+        2,
+        16,
+        2
+      ],
+      "max": [
+        26,
+        17,
+        22
+      ],
+      "material": 3,
+      "evidence": "inferred"
+    },
+    {
+      "id": 8,
+      "role": "floor",
+      "shape": "box",
+      "min": [
+        2,
+        24,
+        2
+      ],
+      "max": [
+        26,
+        25,
+        22
+      ],
+      "material": 3,
+      "evidence": "inferred"
+    },
+    {
+      "id": 9,
+      "role": "window_frame",
+      "shape": "box",
+      "min": [
+        3,
+        2,
+        2
+      ],
+      "max": [
+        9,
+        7,
+        4
+      ],
+      "material": 3,
+      "evidence": "inferred"
+    },
+    {
+      "id": 10,
+      "role": "window_frame",
+      "shape": "box",
+      "min": [
+        19,
+        2,
+        2
+      ],
+      "max": [
+        25,
+        7,
+        4
+      ],
+      "material": 3,
+      "evidence": "inferred"
+    },
+    {
+      "id": 11,
+      "role": "window_frame",
+      "shape": "box",
+      "min": [
+        3,
+        2,
+        20
+      ],
+      "max": [
+        9,
+        7,
+        22
+      ],
+      "material": 3,
+      "evidence": "inferred"
+    },
+    {
+      "id": 12,
+      "role": "window_frame",
+      "shape": "box",
+      "min": [
+        11,
+        2,
+        20
+      ],
+      "max": [
+        17,
+        7,
+        22
+      ],
+      "material": 3,
+      "evidence": "inferred"
+    },
+    {
+      "id": 13,
+      "role": "window_frame",
+      "shape": "box",
+      "min": [
+        19,
+        2,
+        20
+      ],
+      "max": [
+        25,
+        7,
+        22
+      ],
+      "material": 3,
+      "evidence": "inferred"
+    },
+    {
+      "id": 14,
+      "role": "window_frame",
+      "shape": "box",
+      "min": [
+        3,
+        10,
+        2
+      ],
+      "max": [
+        9,
+        15,
+        4
+      ],
+      "material": 3,
+      "evidence": "inferred"
+    },
+    {
+      "id": 15,
+      "role": "window_frame",
+      "shape": "box",
+      "min": [
+        11,
+        10,
+        2
+      ],
+      "max": [
+        17,
+        15,
+        4
+      ],
+      "material": 3,
+      "evidence": "inferred"
+    },
+    {
+      "id": 16,
+      "role": "window_frame",
+      "shape": "box",
+      "min": [
+        19,
+        10,
+        2
+      ],
+      "max": [
+        25,
+        15,
+        4
+      ],
+      "material": 3,
+      "evidence": "inferred"
+    },
+    {
+      "id": 17,
+      "role": "window_frame",
+      "shape": "box",
+      "min": [
+        3,
+        10,
+        20
+      ],
+      "max": [
+        9,
+        15,
+        22
+      ],
+      "material": 3,
+      "evidence": "inferred"
+    },
+    {
+      "id": 18,
+      "role": "window_frame",
+      "shape": "box",
+      "min": [
+        11,
+        10,
+        20
+      ],
+      "max": [
+        17,
+        15,
+        22
+      ],
+      "material": 3,
+      "evidence": "inferred"
+    },
+    {
+      "id": 19,
+      "role": "window_frame",
+      "shape": "box",
+      "min": [
+        19,
+        10,
+        20
+      ],
+      "max": [
+        25,
+        15,
+        22
+      ],
+      "material": 3,
+      "evidence": "inferred"
+    },
+    {
+      "id": 20,
+      "role": "window_frame",
+      "shape": "box",
+      "min": [
+        3,
+        18,
+        2
+      ],
+      "max": [
+        9,
+        23,
+        4
+      ],
+      "material": 3,
+      "evidence": "inferred"
+    },
+    {
+      "id": 21,
+      "role": "window_frame",
+      "shape": "box",
+      "min": [
+        11,
+        18,
+        2
+      ],
+      "max": [
+        17,
+        23,
+        4
+      ],
+      "material": 3,
+      "evidence": "inferred"
+    },
+    {
+      "id": 22,
+      "role": "window_frame",
+      "shape": "box",
+      "min": [
+        19,
+        18,
+        2
+      ],
+      "max": [
+        25,
+        23,
+        4
+      ],
+      "material": 3,
+      "evidence": "inferred"
+    },
+    {
+      "id": 23,
+      "role": "window_frame",
+      "shape": "box",
+      "min": [
+        3,
+        18,
+        20
+      ],
+      "max": [
+        9,
+        23,
+        22
+      ],
+      "material": 3,
+      "evidence": "inferred"
+    },
+    {
+      "id": 24,
+      "role": "window_frame",
+      "shape": "box",
+      "min": [
+        11,
+        18,
+        20
+      ],
+      "max": [
+        17,
+        23,
+        22
+      ],
+      "material": 3,
+      "evidence": "inferred"
+    },
+    {
+      "id": 25,
+      "role": "window_frame",
+      "shape": "box",
+      "min": [
+        19,
+        18,
+        20
+      ],
+      "max": [
+        25,
+        23,
+        22
+      ],
+      "material": 3,
+      "evidence": "inferred"
+    }
+  ],
+  "openings": [
+    {
+      "id": "window-0-2-4",
+      "bounds_min": [
+        4,
+        3,
+        2
+      ],
+      "bounds_max": [
+        8,
+        6,
+        4
+      ],
+      "fill_palette": 2,
+      "evidence": "inferred",
+      "confidence": 0.7
+    },
+    {
+      "id": "window-0-2-20",
+      "bounds_min": [
+        20,
+        3,
+        2
+      ],
+      "bounds_max": [
+        24,
+        6,
+        4
+      ],
+      "fill_palette": 2,
+      "evidence": "inferred",
+      "confidence": 0.7
+    },
+    {
+      "id": "window-0-20-4",
+      "bounds_min": [
+        4,
+        3,
+        20
+      ],
+      "bounds_max": [
+        8,
+        6,
+        22
+      ],
+      "fill_palette": 2,
+      "evidence": "inferred",
+      "confidence": 0.7
+    },
+    {
+      "id": "window-0-20-12",
+      "bounds_min": [
+        12,
+        3,
+        20
+      ],
+      "bounds_max": [
+        16,
+        6,
+        22
+      ],
+      "fill_palette": 2,
+      "evidence": "inferred",
+      "confidence": 0.7
+    },
+    {
+      "id": "window-0-20-20",
+      "bounds_min": [
+        20,
+        3,
+        20
+      ],
+      "bounds_max": [
+        24,
+        6,
+        22
+      ],
+      "fill_palette": 2,
+      "evidence": "inferred",
+      "confidence": 0.7
+    },
+    {
+      "id": "window-8-2-4",
+      "bounds_min": [
+        4,
+        11,
+        2
+      ],
+      "bounds_max": [
+        8,
+        14,
+        4
+      ],
+      "fill_palette": 2,
+      "evidence": "inferred",
+      "confidence": 0.7
+    },
+    {
+      "id": "window-8-2-12",
+      "bounds_min": [
+        12,
+        11,
+        2
+      ],
+      "bounds_max": [
+        16,
+        14,
+        4
+      ],
+      "fill_palette": 2,
+      "evidence": "inferred",
+      "confidence": 0.7
+    },
+    {
+      "id": "window-8-2-20",
+      "bounds_min": [
+        20,
+        11,
+        2
+      ],
+      "bounds_max": [
+        24,
+        14,
+        4
+      ],
+      "fill_palette": 2,
+      "evidence": "inferred",
+      "confidence": 0.7
+    },
+    {
+      "id": "window-8-20-4",
+      "bounds_min": [
+        4,
+        11,
+        20
+      ],
+      "bounds_max": [
+        8,
+        14,
+        22
+      ],
+      "fill_palette": 2,
+      "evidence": "inferred",
+      "confidence": 0.7
+    },
+    {
+      "id": "window-8-20-12",
+      "bounds_min": [
+        12,
+        11,
+        20
+      ],
+      "bounds_max": [
+        16,
+        14,
+        22
+      ],
+      "fill_palette": 2,
+      "evidence": "inferred",
+      "confidence": 0.7
+    },
+    {
+      "id": "window-8-20-20",
+      "bounds_min": [
+        20,
+        11,
+        20
+      ],
+      "bounds_max": [
+        24,
+        14,
+        22
+      ],
+      "fill_palette": 2,
+      "evidence": "inferred",
+      "confidence": 0.7
+    },
+    {
+      "id": "window-16-2-4",
+      "bounds_min": [
+        4,
+        19,
+        2
+      ],
+      "bounds_max": [
+        8,
+        22,
+        4
+      ],
+      "fill_palette": 2,
+      "evidence": "inferred",
+      "confidence": 0.7
+    },
+    {
+      "id": "window-16-2-12",
+      "bounds_min": [
+        12,
+        19,
+        2
+      ],
+      "bounds_max": [
+        16,
+        22,
+        4
+      ],
+      "fill_palette": 2,
+      "evidence": "inferred",
+      "confidence": 0.7
+    },
+    {
+      "id": "window-16-2-20",
+      "bounds_min": [
+        20,
+        19,
+        2
+      ],
+      "bounds_max": [
+        24,
+        22,
+        4
+      ],
+      "fill_palette": 2,
+      "evidence": "inferred",
+      "confidence": 0.7
+    },
+    {
+      "id": "window-16-20-4",
+      "bounds_min": [
+        4,
+        19,
+        20
+      ],
+      "bounds_max": [
+        8,
+        22,
+        22
+      ],
+      "fill_palette": 2,
+      "evidence": "inferred",
+      "confidence": 0.7
+    },
+    {
+      "id": "window-16-20-12",
+      "bounds_min": [
+        12,
+        19,
+        20
+      ],
+      "bounds_max": [
+        16,
+        22,
+        22
+      ],
+      "fill_palette": 2,
+      "evidence": "inferred",
+      "confidence": 0.7
+    },
+    {
+      "id": "window-16-20-20",
+      "bounds_min": [
+        20,
+        19,
+        20
+      ],
+      "bounds_max": [
+        24,
+        22,
+        22
+      ],
+      "fill_palette": 2,
+      "evidence": "inferred",
+      "confidence": 0.7
+    },
+    {
+      "id": "entrance",
+      "bounds_min": [
+        12,
+        1,
+        2
+      ],
+      "bounds_max": [
+        16,
+        6,
+        4
+      ],
+      "fill_palette": 0,
+      "evidence": "user",
+      "confidence": 1
+    }
+  ]
+}

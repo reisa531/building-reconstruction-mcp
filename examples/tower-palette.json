@@ -1,0 +1,123 @@
+{
+  "blocks": [
+    {
+      "id": "iron_block",
+      "mean_rgb": [
+        220.1171875,
+        220.0078125,
+        220.0078125
+      ],
+      "texture": "assets/minecraft/textures/block/iron_block.png"
+    },
+    {
+      "id": "white_concrete",
+      "mean_rgb": [
+        207.109375,
+        213.078125,
+        214.07421875
+      ],
+      "texture": "assets/minecraft/textures/block/white_concrete.png"
+    },
+    {
+      "id": "light_gray_concrete",
+      "mean_rgb": [
+        125.03125,
+        125.03125,
+        115.03125
+      ],
+      "texture": "assets/minecraft/textures/block/light_gray_concrete.png"
+    },
+    {
+      "id": "gray_concrete",
+      "mean_rgb": [
+        54.6171875,
+        57.6171875,
+        61.6171875
+      ],
+      "texture": "assets/minecraft/textures/block/gray_concrete.png"
+    },
+    {
+      "id": "black_concrete",
+      "mean_rgb": [
+        8.40234375,
+        10.40234375,
+        15.40234375
+      ],
+      "texture": "assets/minecraft/textures/block/black_concrete.png"
+    },
+    {
+      "id": "quartz_block",
+      "mean_rgb": [
+        235.78125,
+        229.90234375,
+        222.95703125
+      ],
+      "texture": "assets/minecraft/textures/block/quartz_block_side.png"
+    },
+    {
+      "id": "stone",
+      "mean_rgb": [
+        125.546875,
+        125.546875,
+        125.546875
+      ],
+      "texture": "assets/minecraft/textures/block/stone.png"
+    },
+    {
+      "id": "smooth_stone",
+      "mean_rgb": [
+        158.6796875,
+        158.6796875,
+        158.6796875
+      ],
+      "texture": "assets/minecraft/textures/block/smooth_stone.png"
+    },
+    {
+      "id": "polished_andesite",
+      "mean_rgb": [
+        132.2578125,
+        134.75390625,
+        133.99609375
+      ],
+      "texture": "assets/minecraft/textures/block/polished_andesite.png"
+    },
+    {
+      "id": "polished_diorite",
+      "mean_rgb": [
+        192.98046875,
+        193.078125,
+        194.55078125
+      ],
+      "texture": "assets/minecraft/textures/block/polished_diorite.png"
+    },
+    {
+      "id": "andesite",
+      "mean_rgb": [
+        136.15234375,
+        136.26171875,
+        136.77734375
+      ],
+      "texture": "assets/minecraft/textures/block/andesite.png"
+    },
+    {
+      "id": "diorite",
+      "mean_rgb": [
+        188.71875,
+        188.453125,
+        188.98046875
+      ],
+      "texture": "assets/minecraft/textures/block/diorite.png"
+    },
+    {
+      "id": "calcite",
+      "mean_rgb": [
+        223.47265625,
+        224.46484375,
+        220.6640625
+      ],
+      "texture": "assets/minecraft/textures/block/calcite.png"
+    }
+  ],
+  "format": "sRGB",
+  "index0": "air"
+}

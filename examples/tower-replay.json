@@ -1,0 +1,87 @@
+{
+  "geometry_source": "mc-build/square-platforms-192-1792500808003988600/regularized_voxels.npz",
+  "palette_path": "reconstruction-kit/examples/tower-palette.json",
+  "cloud": "symmetry-output-1792497285021317400/color-correction-1792497900090070300/material_reference.ply",
+  "transform": [
+    [
+      2.1805994983491743,
+      0,
+      0,
+      -0.0
+    ],
+    [
+      0,
+      0,
+      2.1805994983491743,
+      -0.0
+    ],
+    [
+      0,
+      -2.1805994983491743,
+      0,
+      48.9620823182164
+    ],
+    [
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "data_version": 5023,
+  "policy": {
+    "allowed_by_component": {
+      "1": [
+        8,
+        7,
+        9,
+        3
+      ],
+      "2": [
+        1,
+        2,
+        3,
+        10
+      ],
+      "3": [
+        8,
+        7,
+        9,
+        3
+      ],
+      "4": [
+        9,
+        11,
+        7
+      ],
+      "5": [
+        3,
+        8,
+        10
+      ],
+      "6": [
+        3,
+        8,
+        10
+      ],
+      "7": [
+        1,
+        2,
+        3,
+        10
+      ],
+      "8": [
+        1,
+        2,
+        3,
+        10
+      ]
+    },
+    "brightness_retention": 0.25,
+    "chroma_retention": 0.15,
+    "brightness_limits": [
+      0.85,
+      1.15
+    ]
+  }
+}

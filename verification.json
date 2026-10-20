@@ -1,0 +1,82 @@
+{
+  "recorded_at": "2026-10-20T13:37:59.220269+00:00",
+  "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "tests_passed": 13,
+  "test_log": ".............                                                            [100%]\r\n13 passed in 4.41s",
+  "mcp_stdio_initialize_list_tools_pipeline_read_report": true,
+  "skill_schema_validation": "3 skills passed quick_validate.py",
+  "game_tested": false,
+  "automatic_arbitrary_photo_interpretation": false,
+  "dependency_versions": {
+    "pycolmap": "4.2.1",
+    "numpy": "2.3.5",
+    "pyyaml": "6.0.3",
+    "pytest": "9.1.1",
+    "pygments": "2.21.0",
+    "pluggy": "1.7.0",
+    "packaging": "26.3",
+    "iniconfig": "2.3.1",
+    "colorama": "0.4.6",
+    "pillow": "12.3.0",
+    "nbtlib": "2.0.4",
+    "plyfile": "1.1.5",
+    "opencv-python-headless": "4.14.0.94",
+    "scipy": "1.18.1",
+    "mcp": "1.30.0",
+    "uvicorn": "0.54.0",
+    "h11": "0.16.0",
+    "click": "8.5.0",
+    "typing-inspection": "0.4.4",
+    "typing-extensions": "4.16.0",
+    "starlette": "1.9.0",
+    "anyio": "4.15.1",
+    "idna": "3.20",
+    "sse-starlette": "3.5.0",
+    "pywin32": "312",
+    "python-multipart": "0.0.32",
+    "pyjwt": "2.15.1",
+    "pydantic": "2.14.0",
+    "pydantic-core": "2.50.0",
+    "annotated-types": "0.8.0",
+    "pydantic-settings": "2.16.0",
+    "python-dotenv": "1.2.4",
+    "jsonschema": "4.26.0",
+    "rpds-py": "2026.9.1",
+    "referencing": "0.37.0",
+    "attrs": "26.1.0",
+    "jsonschema-specifications": "2025.9.1",
+    "httpx": "0.28.1",
+    "httpcore": "1.0.9",
+    "certifi": "2026.10.19",
+    "httpx-sse": "0.4.3"
+  },
+  "examples": {
+    "building": {
+      "block_count": 5240,
+      "connected_components": 1,
+      "protected_air": 40,
+      "protected_glazing": 408,
+      "schematic_roundtrip": true
+    },
+    "tower_replay": {
+      "block_count": 19228,
+      "connected_components": 1,
+      "protected_air": 0,
+      "protected_glazing": 0,
+      "schematic_roundtrip": true
+    },
+    "tower_structure": {
+      "block_count": 13828,
+      "connected_components": 1,
+      "protected_air": 0,
+      "protected_glazing": 0,
+      "schematic_roundtrip": true
+    }
+  },
+  "colmap": {
+    "masks": true,
+    "model_count": 0,
+    "registered_images": 0,
+    "status": "no_model"
+  }
+}

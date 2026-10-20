@@ -1,0 +1,4 @@
+interface:
+  display_name: "建筑点云重建"
+  short_description: "从点云与照片生成规整建筑，保护门窗并保留少量实测杂色"
+  default_prompt: "使用 $reconstruct-building 将建筑点云与照片重建为规整的 MC 建筑，保留开口和少量杂色。"

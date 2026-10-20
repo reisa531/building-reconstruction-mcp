@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "building-reconstruction": {
+      "command": "C:/BuildingWorkspace/reconstruction-kit/.venv/Scripts/python.exe",
+      "args": ["-m", "reconstruction.server", "--root", "C:/BuildingWorkspace"],
+      "env": {"PYTHONUTF8": "1"}
+    }
+  }
+}

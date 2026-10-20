@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "building-reconstruction-mcp"
+version = "0.1.0"
+description = "Local evidence-aware building reconstruction for Minecraft"
+requires-python = ">=3.11"
+dependencies = ["mcp>=1.20,<2", "numpy>=2,<3", "scipy>=1.13,<2", "opencv-python-headless>=4.10,<5", "plyfile>=1.1,<2", "nbtlib>=2,<3", "Pillow>=10,<13"]
+
+[project.optional-dependencies]
+test = ["pytest>=8,<10", "PyYAML>=6,<7"]
+sfm = ["pycolmap>=4,<5"]
+
+[project.scripts]
+building-reconstruction-mcp = "reconstruction.server:main"
+
+[tool.setuptools.packages.find]
+include = ["reconstruction*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

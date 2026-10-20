@@ -1,0 +1,1733 @@
+{
+  "schema_version": 1,
+  "dims": [
+    42,
+    192,
+    54
+  ],
+  "components": [
+    {
+      "id": 1,
+      "role": "base",
+      "shape": "box",
+      "min": [
+        9,
+        0,
+        15
+      ],
+      "max": [
+        33,
+        3,
+        39
+      ],
+      "material": 8,
+      "evidence": "inferred"
+    },
+    {
+      "id": 2,
+      "role": "platform",
+      "shape": "ring",
+      "material": 8,
+      "min": [
+        0,
+        21,
+        0
+      ],
+      "max": [
+        42,
+        23,
+        54
+      ],
+      "center": [
+        21,
+        27
+      ],
+      "outer_half": [
+        13,
+        13
+      ],
+      "inner_half": [
+        4,
+        4
+      ],
+      "angle_degrees": 0,
+      "evidence": "user"
+    },
+    {
+      "id": 3,
+      "role": "platform",
+      "shape": "ring",
+      "material": 8,
+      "min": [
+        0,
+        38,
+        0
+      ],
+      "max": [
+        42,
+        40,
+        54
+      ],
+      "center": [
+        21,
+        27
+      ],
+      "outer_half": [
+        13,
+        13
+      ],
+      "inner_half": [
+        4,
+        4
+      ],
+      "angle_degrees": 45,
+      "evidence": "user"
+    },
+    {
+      "id": 4,
+      "role": "platform",
+      "shape": "ring",
+      "material": 8,
+      "min": [
+        0,
+        55,
+        0
+      ],
+      "max": [
+        42,
+        57,
+        54
+      ],
+      "center": [
+        21,
+        27
+      ],
+      "outer_half": [
+        13,
+        13
+      ],
+      "inner_half": [
+        4,
+        4
+      ],
+      "angle_degrees": 0,
+      "evidence": "user"
+    },
+    {
+      "id": 5,
+      "role": "platform",
+      "shape": "ring",
+      "material": 8,
+      "min": [
+        0,
+        72,
+        0
+      ],
+      "max": [
+        42,
+        74,
+        54
+      ],
+      "center": [
+        21,
+        27
+      ],
+      "outer_half": [
+        12,
+        12
+      ],
+      "inner_half": [
+        4,
+        4
+      ],
+      "angle_degrees": 45,
+      "evidence": "user"
+    },
+    {
+      "id": 6,
+      "role": "platform",
+      "shape": "ring",
+      "material": 8,
+      "min": [
+        0,
+        89,
+        0
+      ],
+      "max": [
+        42,
+        91,
+        54
+      ],
+      "center": [
+        21,
+        27
+      ],
+      "outer_half": [
+        12,
+        12
+      ],
+      "inner_half": [
+        4,
+        4
+      ],
+      "angle_degrees": 0,
+      "evidence": "user"
+    },
+    {
+      "id": 7,
+      "role": "platform",
+      "shape": "ring",
+      "material": 8,
+      "min": [
+        0,
+        106,
+        0
+      ],
+      "max": [
+        42,
+        108,
+        54
+      ],
+      "center": [
+        21,
+        27
+      ],
+      "outer_half": [
+        11,
+        11
+      ],
+      "inner_half": [
+        4,
+        4
+      ],
+      "angle_degrees": 45,
+      "evidence": "user"
+    },
+    {
+      "id": 8,
+      "role": "platform",
+      "shape": "ring",
+      "material": 8,
+      "min": [
+        0,
+        124,
+        0
+      ],
+      "max": [
+        42,
+        126,
+        54
+      ],
+      "center": [
+        21,
+        27
+      ],
+      "outer_half": [
+        11,
+        11
+      ],
+      "inner_half": [
+        4,
+        4
+      ],
+      "angle_degrees": 0,
+      "evidence": "user"
+    },
+    {
+      "id": 9,
+      "role": "platform",
+      "shape": "ring",
+      "material": 8,
+      "min": [
+        0,
+        139,
+        0
+      ],
+      "max": [
+        42,
+        141,
+        54
+      ],
+      "center": [
+        21,
+        27
+      ],
+      "outer_half": [
+        9,
+        9
+      ],
+      "inner_half": [
+        4,
+        4
+      ],
+      "angle_degrees": 45,
+      "evidence": "user"
+    },
+    {
+      "id": 10,
+      "role": "support",
+      "shape": "rod",
+      "material": 1,
+      "start": [
+        29.0,
+        3,
+        27.0
+      ],
+      "end": [
+        21.0,
+        21,
+        14.0
+      ],
+      "radius": 0.9,
+      "evidence": "inferred"
+    },
+    {
+      "id": 11,
+      "role": "support",
+      "shape": "rod",
+      "material": 1,
+      "start": [
+        29.0,
+        3,
+        27.0
+      ],
+      "end": [
+        21.0,
+        21,
+        40.0
+      ],
+      "radius": 0.9,
+      "evidence": "inferred"
+    },
+    {
+      "id": 12,
+      "role": "support",
+      "shape": "rod",
+      "material": 1,
+      "start": [
+        21.0,
+        3,
+        35.0
+      ],
+      "end": [
+        34.0,
+        21,
+        27.0
+      ],
+      "radius": 0.9,
+      "evidence": "inferred"
+    },
+    {
+      "id": 13,
+      "role": "support",
+      "shape": "rod",
+      "material": 1,
+      "start": [
+        21.0,
+        3,
+        35.0
+      ],
+      "end": [
+        8.0,
+        21,
+        27.0
+      ],
+      "radius": 0.9,
+      "evidence": "inferred"
+    },
+    {
+      "id": 14,
+      "role": "support",
+      "shape": "rod",
+      "material": 1,
+      "start": [
+        13.0,
+        3,
+        27.0
+      ],
+      "end": [
+        21.0,
+        21,
+        40.0
+      ],
+      "radius": 0.9,
+      "evidence": "inferred"
+    },
+    {
+      "id": 15,
+      "role": "support",
+      "shape": "rod",
+      "material": 1,
+      "start": [
+        13.0,
+        3,
+        27.0
+      ],
+      "end": [
+        20.999999999999996,
+        21,
+        14.0
+      ],
+      "radius": 0.9,
+      "evidence": "inferred"
+    },
+    {
+      "id": 16,
+      "role": "support",
+      "shape": "rod",
+      "material": 1,
+      "start": [
+        21.0,
+        3,
+        19.0
+      ],
+      "end": [
+        8.0,
+        21,
+        27.0
+      ],
+      "radius": 0.9,
+      "evidence": "inferred"
+    },
+    {
+      "id": 17,
+      "role": "support",
+      "shape": "rod",
+      "material": 1,
+      "start": [
+        21.0,
+        3,
+        19.0
+      ],
+      "end": [
+        34.0,
+        21,
+        26.999999999999996
+      ],
+      "radius": 0.9,
+      "evidence": "inferred"
+    },
+    {
+      "id": 18,
+      "role": "support",
+      "shape": "rod",
+      "material": 1,
+      "start": [
+        34.0,
+        21,
+        27.0
+      ],
+      "end": [
+        21.0,
+        38,
+        14.0
+      ],
+      "radius": 0.9,
+      "evidence": "inferred"
+    },
+    {
+      "id": 19,
+      "role": "support",
+      "shape": "rod",
+      "material": 1,
+      "start": [
+        34.0,
+        21,
+        27.0
+      ],
+      "end": [
+        21.0,
+        38,
+        40.0
+      ],
+      "radius": 0.9,
+      "evidence": "inferred"
+    },
+    {
+      "id": 20,
+      "role": "support",
+      "shape": "rod",
+      "material": 1,
+      "start": [
+        21.0,
+        21,
+        40.0
+      ],
+      "end": [
+        34.0,
+        38,
+        27.0
+      ],
+      "radius": 0.9,
+      "evidence": "inferred"
+    },
+    {
+      "id": 21,
+      "role": "support",
+      "shape": "rod",
+      "material": 1,
+      "start": [
+        21.0,
+        21,
+        40.0
+      ],
+      "end": [
+        8.0,
+        38,
+        27.0
+      ],
+      "radius": 0.9,
+      "evidence": "inferred"
+    },
+    {
+      "id": 22,
+      "role": "support",
+      "shape": "rod",
+      "material": 1,
+      "start": [
+        8.0,
+        21,
+        27.0
+      ],
+      "end": [
+        21.0,
+        38,
+        40.0
+      ],
+      "radius": 0.9,
+      "evidence": "inferred"
+    },
+    {
+      "id": 23,
+      "role": "support",
+      "shape": "rod",
+      "material": 1,
+      "start": [
+        8.0,
+        21,
+        27.0
+      ],
+      "end": [
+        20.999999999999996,
+        38,
+        14.0
+      ],
+      "radius": 0.9,
+      "evidence": "inferred"
+    },
+    {
+      "id": 24,
+      "role": "support",
+      "shape": "rod",
+      "material": 1,
+      "start": [
+        20.999999999999996,
+        21,
+        14.0
+      ],
+      "end": [
+        8.0,
+        38,
+        27.0
+      ],
+      "radius": 0.9,
+      "evidence": "inferred"
+    },
+    {
+      "id": 25,
+      "role": "support",
+      "shape": "rod",
+      "material": 1,
+      "start": [
+        20.999999999999996,
+        21,
+        14.0
+      ],
+      "end": [
+        34.0,
+        38,
+        26.999999999999996
+      ],
+      "radius": 0.9,
+      "evidence": "inferred"
+    },
+    {
+      "id": 26,
+      "role": "support",
+      "shape": "rod",
+      "material": 1,
+      "start": [
+        34.0,
+        38,
+        27.0
+      ],
+      "end": [
+        21.0,
+        55,
+        14.0
+      ],
+      "radius": 0.9,
+      "evidence": "inferred"
+    },
+    {
+      "id": 27,
+      "role": "support",
+      "shape": "rod",
+      "material": 1,
+      "start": [
+        34.0,
+        38,
+        27.0
+      ],
+      "end": [
+        21.0,
+        55,
+        40.0
+      ],
+      "radius": 0.9,
+      "evidence": "inferred"
+    },
+    {
+      "id": 28,
+      "role": "support",
+      "shape": "rod",
+      "material": 1,
+      "start": [
+        21.0,
+        38,
+        40.0
+      ],
+      "end": [
+        34.0,
+        55,
+        27.0
+      ],
+      "radius": 0.9,
+      "evidence": "inferred"
+    },
+    {
+      "id": 29,
+      "role": "support",
+      "shape": "rod",
+      "material": 1,
+      "start": [
+        21.0,
+        38,
+        40.0
+      ],
+      "end": [
+        8.0,
+        55,
+        27.0
+      ],
+      "radius": 0.9,
+      "evidence": "inferred"
+    },
+    {
+      "id": 30,
+      "role": "support",
+      "shape": "rod",
+      "material": 1,
+      "start": [
+        8.0,
+        38,
+        27.0
+      ],
+      "end": [
+        21.0,
+        55,
+        40.0
+      ],
+      "radius": 0.9,
+      "evidence": "inferred"
+    },
+    {
+      "id": 31,
+      "role": "support",
+      "shape": "rod",
+      "material": 1,
+      "start": [
+        8.0,
+        38,
+        27.0
+      ],
+      "end": [
+        20.999999999999996,
+        55,
+        14.0
+      ],
+      "radius": 0.9,
+      "evidence": "inferred"
+    },
+    {
+      "id": 32,
+      "role": "support",
+      "shape": "rod",
+      "material": 1,
+      "start": [
+        20.999999999999996,
+        38,
+        14.0
+      ],
+      "end": [
+        8.0,
+        55,
+        27.0
+      ],
+      "radius": 0.9,
+      "evidence": "inferred"
+    },
+    {
+      "id": 33,
+      "role": "support",
+      "shape": "rod",
+      "material": 1,
+      "start": [
+        20.999999999999996,
+        38,
+        14.0
+      ],
+      "end": [
+        34.0,
+        55,
+        26.999999999999996
+      ],
+      "radius": 0.9,
+      "evidence": "inferred"
+    },
+    {
+      "id": 34,
+      "role": "support",
+      "shape": "rod",
+      "material": 1,
+      "start": [
+        34.0,
+        55,
+        27.0
+      ],
+      "end": [
+        21.0,
+        72,
+        15.0
+      ],
+      "radius": 0.9,
+      "evidence": "inferred"
+    },
+    {
+      "id": 35,
+      "role": "support",
+      "shape": "rod",
+      "material": 1,
+      "start": [
+        34.0,
+        55,
+        27.0
+      ],
+      "end": [
+        21.0,
+        72,
+        39.0
+      ],
+      "radius": 0.9,
+      "evidence": "inferred"
+    },
+    {
+      "id": 36,
+      "role": "support",
+      "shape": "rod",
+      "material": 1,
+      "start": [
+        21.0,
+        55,
+        40.0
+      ],
+      "end": [
+        33.0,
+        72,
+        27.0
+      ],
+      "radius": 0.9,
+      "evidence": "inferred"
+    },
+    {
+      "id": 37,
+      "role": "support",
+      "shape": "rod",
+      "material": 1,
+      "start": [
+        21.0,
+        55,
+        40.0
+      ],
+      "end": [
+        9.0,
+        72,
+        27.0
+      ],
+      "radius": 0.9,
+      "evidence": "inferred"
+    },
+    {
+      "id": 38,
+      "role": "support",
+      "shape": "rod",
+      "material": 1,
+      "start": [
+        8.0,
+        55,
+        27.0
+      ],
+      "end": [
+        21.0,
+        72,
+        39.0
+      ],
+      "radius": 0.9,
+      "evidence": "inferred"
+    },
+    {
+      "id": 39,
+      "role": "support",
+      "shape": "rod",
+      "material": 1,
+      "start": [
+        8.0,
+        55,
+        27.0
+      ],
+      "end": [
+        20.999999999999996,
+        72,
+        15.0
+      ],
+      "radius": 0.9,
+      "evidence": "inferred"
+    },
+    {
+      "id": 40,
+      "role": "support",
+      "shape": "rod",
+      "material": 1,
+      "start": [
+        20.999999999999996,
+        55,
+        14.0
+      ],
+      "end": [
+        9.0,
+        72,
+        27.0
+      ],
+      "radius": 0.9,
+      "evidence": "inferred"
+    },
+    {
+      "id": 41,
+      "role": "support",
+      "shape": "rod",
+      "material": 1,
+      "start": [
+        20.999999999999996,
+        55,
+        14.0
+      ],
+      "end": [
+        33.0,
+        72,
+        26.999999999999996
+      ],
+      "radius": 0.9,
+      "evidence": "inferred"
+    },
+    {
+      "id": 42,
+      "role": "support",
+      "shape": "rod",
+      "material": 1,
+      "start": [
+        33.0,
+        72,
+        27.0
+      ],
+      "end": [
+        21.0,
+        89,
+        15.0
+      ],
+      "radius": 0.9,
+      "evidence": "inferred"
+    },
+    {
+      "id": 43,
+      "role": "support",
+      "shape": "rod",
+      "material": 1,
+      "start": [
+        33.0,
+        72,
+        27.0
+      ],
+      "end": [
+        21.0,
+        89,
+        39.0
+      ],
+      "radius": 0.9,
+      "evidence": "inferred"
+    },
+    {
+      "id": 44,
+      "role": "support",
+      "shape": "rod",
+      "material": 1,
+      "start": [
+        21.0,
+        72,
+        39.0
+      ],
+      "end": [
+        33.0,
+        89,
+        27.0
+      ],
+      "radius": 0.9,
+      "evidence": "inferred"
+    },
+    {
+      "id": 45,
+      "role": "support",
+      "shape": "rod",
+      "material": 1,
+      "start": [
+        21.0,
+        72,
+        39.0
+      ],
+      "end": [
+        9.0,
+        89,
+        27.0
+      ],
+      "radius": 0.9,
+      "evidence": "inferred"
+    },
+    {
+      "id": 46,
+      "role": "support",
+      "shape": "rod",
+      "material": 1,
+      "start": [
+        9.0,
+        72,
+        27.0
+      ],
+      "end": [
+        21.0,
+        89,
+        39.0
+      ],
+      "radius": 0.9,
+      "evidence": "inferred"
+    },
+    {
+      "id": 47,
+      "role": "support",
+      "shape": "rod",
+      "material": 1,
+      "start": [
+        9.0,
+        72,
+        27.0
+      ],
+      "end": [
+        20.999999999999996,
+        89,
+        15.0
+      ],
+      "radius": 0.9,
+      "evidence": "inferred"
+    },
+    {
+      "id": 48,
+      "role": "support",
+      "shape": "rod",
+      "material": 1,
+      "start": [
+        20.999999999999996,
+        72,
+        15.0
+      ],
+      "end": [
+        9.0,
+        89,
+        27.0
+      ],
+      "radius": 0.9,
+      "evidence": "inferred"
+    },
+    {
+      "id": 49,
+      "role": "support",
+      "shape": "rod",
+      "material": 1,
+      "start": [
+        20.999999999999996,
+        72,
+        15.0
+      ],
+      "end": [
+        33.0,
+        89,
+        26.999999999999996
+      ],
+      "radius": 0.9,
+      "evidence": "inferred"
+    },
+    {
+      "id": 50,
+      "role": "support",
+      "shape": "rod",
+      "material": 1,
+      "start": [
+        33.0,
+        89,
+        27.0
+      ],
+      "end": [
+        21.0,
+        106,
+        16.0
+      ],
+      "radius": 0.9,
+      "evidence": "inferred"
+    },
+    {
+      "id": 51,
+      "role": "support",
+      "shape": "rod",
+      "material": 1,
+      "start": [
+        33.0,
+        89,
+        27.0
+      ],
+      "end": [
+        21.0,
+        106,
+        38.0
+      ],
+      "radius": 0.9,
+      "evidence": "inferred"
+    },
+    {
+      "id": 52,
+      "role": "support",
+      "shape": "rod",
+      "material": 1,
+      "start": [
+        21.0,
+        89,
+        39.0
+      ],
+      "end": [
+        32.0,
+        106,
+        27.0
+      ],
+      "radius": 0.9,
+      "evidence": "inferred"
+    },
+    {
+      "id": 53,
+      "role": "support",
+      "shape": "rod",
+      "material": 1,
+      "start": [
+        21.0,
+        89,
+        39.0
+      ],
+      "end": [
+        10.0,
+        106,
+        27.0
+      ],
+      "radius": 0.9,
+      "evidence": "inferred"
+    },
+    {
+      "id": 54,
+      "role": "support",
+      "shape": "rod",
+      "material": 1,
+      "start": [
+        9.0,
+        89,
+        27.0
+      ],
+      "end": [
+        21.0,
+        106,
+        38.0
+      ],
+      "radius": 0.9,
+      "evidence": "inferred"
+    },
+    {
+      "id": 55,
+      "role": "support",
+      "shape": "rod",
+      "material": 1,
+      "start": [
+        9.0,
+        89,
+        27.0
+      ],
+      "end": [
+        20.999999999999996,
+        106,
+        16.0
+      ],
+      "radius": 0.9,
+      "evidence": "inferred"
+    },
+    {
+      "id": 56,
+      "role": "support",
+      "shape": "rod",
+      "material": 1,
+      "start": [
+        20.999999999999996,
+        89,
+        15.0
+      ],
+      "end": [
+        10.0,
+        106,
+        27.0
+      ],
+      "radius": 0.9,
+      "evidence": "inferred"
+    },
+    {
+      "id": 57,
+      "role": "support",
+      "shape": "rod",
+      "material": 1,
+      "start": [
+        20.999999999999996,
+        89,
+        15.0
+      ],
+      "end": [
+        32.0,
+        106,
+        26.999999999999996
+      ],
+      "radius": 0.9,
+      "evidence": "inferred"
+    },
+    {
+      "id": 58,
+      "role": "support",
+      "shape": "rod",
+      "material": 1,
+      "start": [
+        32.0,
+        106,
+        27.0
+      ],
+      "end": [
+        21.0,
+        124,
+        16.0
+      ],
+      "radius": 0.9,
+      "evidence": "inferred"
+    },
+    {
+      "id": 59,
+      "role": "support",
+      "shape": "rod",
+      "material": 1,
+      "start": [
+        32.0,
+        106,
+        27.0
+      ],
+      "end": [
+        21.0,
+        124,
+        38.0
+      ],
+      "radius": 0.9,
+      "evidence": "inferred"
+    },
+    {
+      "id": 60,
+      "role": "support",
+      "shape": "rod",
+      "material": 1,
+      "start": [
+        21.0,
+        106,
+        38.0
+      ],
+      "end": [
+        32.0,
+        124,
+        27.0
+      ],
+      "radius": 0.9,
+      "evidence": "inferred"
+    },
+    {
+      "id": 61,
+      "role": "support",
+      "shape": "rod",
+      "material": 1,
+      "start": [
+        21.0,
+        106,
+        38.0
+      ],
+      "end": [
+        10.0,
+        124,
+        27.0
+      ],
+      "radius": 0.9,
+      "evidence": "inferred"
+    },
+    {
+      "id": 62,
+      "role": "support",
+      "shape": "rod",
+      "material": 1,
+      "start": [
+        10.0,
+        106,
+        27.0
+      ],
+      "end": [
+        21.0,
+        124,
+        38.0
+      ],
+      "radius": 0.9,
+      "evidence": "inferred"
+    },
+    {
+      "id": 63,
+      "role": "support",
+      "shape": "rod",
+      "material": 1,
+      "start": [
+        10.0,
+        106,
+        27.0
+      ],
+      "end": [
+        20.999999999999996,
+        124,
+        16.0
+      ],
+      "radius": 0.9,
+      "evidence": "inferred"
+    },
+    {
+      "id": 64,
+      "role": "support",
+      "shape": "rod",
+      "material": 1,
+      "start": [
+        20.999999999999996,
+        106,
+        16.0
+      ],
+      "end": [
+        10.0,
+        124,
+        27.0
+      ],
+      "radius": 0.9,
+      "evidence": "inferred"
+    },
+    {
+      "id": 65,
+      "role": "support",
+      "shape": "rod",
+      "material": 1,
+      "start": [
+        20.999999999999996,
+        106,
+        16.0
+      ],
+      "end": [
+        32.0,
+        124,
+        26.999999999999996
+      ],
+      "radius": 0.9,
+      "evidence": "inferred"
+    },
+    {
+      "id": 66,
+      "role": "support",
+      "shape": "rod",
+      "material": 1,
+      "start": [
+        32.0,
+        124,
+        27.0
+      ],
+      "end": [
+        21.0,
+        139,
+        18.0
+      ],
+      "radius": 0.9,
+      "evidence": "inferred"
+    },
+    {
+      "id": 67,
+      "role": "support",
+      "shape": "rod",
+      "material": 1,
+      "start": [
+        32.0,
+        124,
+        27.0
+      ],
+      "end": [
+        21.0,
+        139,
+        36.0
+      ],
+      "radius": 0.9,
+      "evidence": "inferred"
+    },
+    {
+      "id": 68,
+      "role": "support",
+      "shape": "rod",
+      "material": 1,
+      "start": [
+        21.0,
+        124,
+        38.0
+      ],
+      "end": [
+        30.0,
+        139,
+        27.0
+      ],
+      "radius": 0.9,
+      "evidence": "inferred"
+    },
+    {
+      "id": 69,
+      "role": "support",
+      "shape": "rod",
+      "material": 1,
+      "start": [
+        21.0,
+        124,
+        38.0
+      ],
+      "end": [
+        12.0,
+        139,
+        27.0
+      ],
+      "radius": 0.9,
+      "evidence": "inferred"
+    },
+    {
+      "id": 70,
+      "role": "support",
+      "shape": "rod",
+      "material": 1,
+      "start": [
+        10.0,
+        124,
+        27.0
+      ],
+      "end": [
+        21.0,
+        139,
+        36.0
+      ],
+      "radius": 0.9,
+      "evidence": "inferred"
+    },
+    {
+      "id": 71,
+      "role": "support",
+      "shape": "rod",
+      "material": 1,
+      "start": [
+        10.0,
+        124,
+        27.0
+      ],
+      "end": [
+        21.0,
+        139,
+        18.0
+      ],
+      "radius": 0.9,
+      "evidence": "inferred"
+    },
+    {
+      "id": 72,
+      "role": "support",
+      "shape": "rod",
+      "material": 1,
+      "start": [
+        20.999999999999996,
+        124,
+        16.0
+      ],
+      "end": [
+        12.0,
+        139,
+        27.0
+      ],
+      "radius": 0.9,
+      "evidence": "inferred"
+    },
+    {
+      "id": 73,
+      "role": "support",
+      "shape": "rod",
+      "material": 1,
+      "start": [
+        20.999999999999996,
+        124,
+        16.0
+      ],
+      "end": [
+        30.0,
+        139,
+        26.999999999999996
+      ],
+      "radius": 0.9,
+      "evidence": "inferred"
+    },
+    {
+      "id": 74,
+      "role": "support",
+      "shape": "rod",
+      "material": 1,
+      "start": [
+        30.0,
+        139,
+        27.0
+      ],
+      "end": [
+        21.0,
+        157,
+        22.0
+      ],
+      "radius": 0.9,
+      "evidence": "inferred"
+    },
+    {
+      "id": 75,
+      "role": "support",
+      "shape": "rod",
+      "material": 1,
+      "start": [
+        30.0,
+        139,
+        27.0
+      ],
+      "end": [
+        21.0,
+        157,
+        32.0
+      ],
+      "radius": 0.9,
+      "evidence": "inferred"
+    },
+    {
+      "id": 76,
+      "role": "support",
+      "shape": "rod",
+      "material": 1,
+      "start": [
+        21.0,
+        139,
+        36.0
+      ],
+      "end": [
+        26.0,
+        157,
+        27.0
+      ],
+      "radius": 0.9,
+      "evidence": "inferred"
+    },
+    {
+      "id": 77,
+      "role": "support",
+      "shape": "rod",
+      "material": 1,
+      "start": [
+        21.0,
+        139,
+        36.0
+      ],
+      "end": [
+        16.0,
+        157,
+        27.0
+      ],
+      "radius": 0.9,
+      "evidence": "inferred"
+    },
+    {
+      "id": 78,
+      "role": "support",
+      "shape": "rod",
+      "material": 1,
+      "start": [
+        12.0,
+        139,
+        27.0
+      ],
+      "end": [
+        21.0,
+        157,
+        32.0
+      ],
+      "radius": 0.9,
+      "evidence": "inferred"
+    },
+    {
+      "id": 79,
+      "role": "support",
+      "shape": "rod",
+      "material": 1,
+      "start": [
+        12.0,
+        139,
+        27.0
+      ],
+      "end": [
+        21.0,
+        157,
+        22.0
+      ],
+      "radius": 0.9,
+      "evidence": "inferred"
+    },
+    {
+      "id": 80,
+      "role": "support",
+      "shape": "rod",
+      "material": 1,
+      "start": [
+        21.0,
+        139,
+        18.0
+      ],
+      "end": [
+        16.0,
+        157,
+        27.0
+      ],
+      "radius": 0.9,
+      "evidence": "inferred"
+    },
+    {
+      "id": 81,
+      "role": "support",
+      "shape": "rod",
+      "material": 1,
+      "start": [
+        21.0,
+        139,
+        18.0
+      ],
+      "end": [
+        26.0,
+        157,
+        27.0
+      ],
+      "radius": 0.9,
+      "evidence": "inferred"
+    },
+    {
+      "id": 82,
+      "role": "support",
+      "shape": "rod",
+      "material": 1,
+      "start": [
+        26.0,
+        157,
+        27.0
+      ],
+      "end": [
+        21.0,
+        178,
+        25.0
+      ],
+      "radius": 0.9,
+      "evidence": "inferred"
+    },
+    {
+      "id": 83,
+      "role": "support",
+      "shape": "rod",
+      "material": 1,
+      "start": [
+        26.0,
+        157,
+        27.0
+      ],
+      "end": [
+        21.0,
+        178,
+        29.0
+      ],
+      "radius": 0.9,
+      "evidence": "inferred"
+    },
+    {
+      "id": 84,
+      "role": "support",
+      "shape": "rod",
+      "material": 1,
+      "start": [
+        21.0,
+        157,
+        32.0
+      ],
+      "end": [
+        23.0,
+        178,
+        27.0
+      ],
+      "radius": 0.9,
+      "evidence": "inferred"
+    },
+    {
+      "id": 85,
+      "role": "support",
+      "shape": "rod",
+      "material": 1,
+      "start": [
+        21.0,
+        157,
+        32.0
+      ],
+      "end": [
+        19.0,
+        178,
+        27.0
+      ],
+      "radius": 0.9,
+      "evidence": "inferred"
+    },
+    {
+      "id": 86,
+      "role": "support",
+      "shape": "rod",
+      "material": 1,
+      "start": [
+        16.0,
+        157,
+        27.0
+      ],
+      "end": [
+        21.0,
+        178,
+        29.0
+      ],
+      "radius": 0.9,
+      "evidence": "inferred"
+    },
+    {
+      "id": 87,
+      "role": "support",
+      "shape": "rod",
+      "material": 1,
+      "start": [
+        16.0,
+        157,
+        27.0
+      ],
+      "end": [
+        21.0,
+        178,
+        25.0
+      ],
+      "radius": 0.9,
+      "evidence": "inferred"
+    },
+    {
+      "id": 88,
+      "role": "support",
+      "shape": "rod",
+      "material": 1,
+      "start": [
+        21.0,
+        157,
+        22.0
+      ],
+      "end": [
+        19.0,
+        178,
+        27.0
+      ],
+      "radius": 0.9,
+      "evidence": "inferred"
+    },
+    {
+      "id": 89,
+      "role": "support",
+      "shape": "rod",
+      "material": 1,
+      "start": [
+        21.0,
+        157,
+        22.0
+      ],
+      "end": [
+        23.0,
+        178,
+        27.0
+      ],
+      "radius": 0.9,
+      "evidence": "inferred"
+    },
+    {
+      "id": 90,
+      "role": "antenna",
+      "shape": "rod",
+      "material": 1,
+      "start": [
+        21,
+        175,
+        27
+      ],
+      "end": [
+        21,
+        191,
+        27
+      ],
+      "radius": 1,
+      "evidence": "inferred"
+    }
+  ],
+  "openings": [],
+  "symmetry": {
+    "order": 4,
+    "center": [
+      21,
+      27
+    ]
+  }
+}

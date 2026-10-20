@@ -1,0 +1,4 @@
+interface:
+  display_name: "建筑材质与光照"
+  short_description: "估计方向光照偏差，在同类构件中保留少量杂色并保持几何不变"
+  default_prompt: "使用 $relight-building-materials 校正建筑材质的光照偏差并保留少量实测杂色。"
